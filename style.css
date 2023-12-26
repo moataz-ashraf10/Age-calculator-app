@@ -1,0 +1,169 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #eee;
+}
+.card{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-bottom-right-radius:200px;
+}
+.days{
+    width: 80px;
+    height: 40px;
+    transform: translate(50px,5px);
+    border: 2px solid hsl(0, 0%, 94%);
+}
+.days:focus{
+    border: 2px solid hsl(259, 100%, 65%);
+    caret-color:hsl(259, 100%, 65%);
+    color: black;
+}
+.day{
+    font-size: 14px;
+    opacity: .5;
+    transform: translate(80px,17px);
+}
+.months{
+    width: 80px;
+    height: 40px;
+    transform: translate(190px,-90px);
+    border: 2px solid hsl(0, 0%, 94%);
+}
+.months:focus{
+    border: 2px solid hsl(259, 100%, 65%);
+    caret-color:hsl(259, 100%, 65%);
+}
+.month{
+    font-size: 14px;
+    opacity: .5;
+    transform: translate(190px,-78px);
+}
+.years{
+    width: 80px;
+    height: 40px;
+    transform: translate(330px,-180px);
+    border: 2px solid hsl(0, 0%, 94%);}
+.years:focus{
+    border: 2px solid hsl(259, 100%, 65%);
+    caret-color:hsl(259, 100%, 65%);}
+.year{
+    font-size: 14px;
+    opacity: .5;
+    transform:  translate(330px,-168px);
+}
+svg{
+    width: 50px;
+    height: 50px;
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    transform: translate(430px,-40px);
+    cursor: pointer;
+}
+svg:hover{
+    background-color: hsl(0, 100%, 67%);
+}
+hr{
+    width: 90%;
+    margin-left: -1px;
+    margin-top: -150px;
+}
+.text1{
+    font-size: 40px;
+    font-weight: bold;
+    transform: translate(0px,-90px);
+    color: hsl(259, 100%, 65%);
+}
+.text2{
+    font-size: 40px;
+    font-weight: bold;
+    transform: translate(0px,-110px);
+    color: hsl(259, 100%, 65%);
+
+}
+.text3{
+    font-size: 40px;
+    transform: translate(0px,-130px);
+    font-weight: bold;
+    color: hsl(259, 100%, 65%);
+}
+.text4{
+    font-size: 40px;
+    font-weight: bold;
+    transform: translate(70px,-350px);
+}
+.text5{
+    font-size: 40px;
+    font-weight: bold;
+    transform: translate(70px,-365px);
+}
+.text6{
+    font-size: 40px;
+    font-weight: bold;
+    transform: translate(70px,-385px);
+}
+.valid1{
+    color: red;
+    font-size: 12px;
+    transform: translate(30px,-660px);
+    visibility: hidden;
+}
+.valid2{
+    color: red;
+    font-size: 12px;
+    transform: translate(170px,-685px);
+    visibility: hidden;
+}
+.valid3{
+    color: red;
+    font-size: 12px;
+    transform: translate(300px,-710px);
+    visibility: hidden;
+}
+.result1{
+    font-size: 40px;
+    font-weight: bold;
+    color: hsl(259, 100%, 65%);
+    transform: translate(15px,-720px);
+}
+.result2{
+    font-size: 40px;
+    font-weight: bold;
+    color: hsl(259, 100%, 65%);
+    transform: translate(20px,-735px);
+
+}
+.result3{
+    font-size: 40px;
+    font-weight: bold;
+    color: hsl(259, 100%, 65%);
+    transform: translate(20px,-750px);
+}
+@media screen and (max-width:600px){
+    .card{
+        width: 300px;
+    }
+    .days{
+        transform: translate(-0px);
+    }
+    .day{
+        transform: translate(-0px,10px); 
+    }
+    .months{transform: translate(100px,-90px);}
+    .month{transform: translate(100px,-75px);}
+    .year{transform: translate(200px,-165px);}
+    .years{transform: translate(200px,-180px);}
+    svg{
+        transform: translate(120px,-30px);
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
